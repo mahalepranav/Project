@@ -1,0 +1,254 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+.bg-first{
+    background-image: url(./images/5417e41e-14d1-414e-b12d-b32d91584629.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 800px;
+}
+
+.navbar{
+    position: fixed;
+    width: 100%;
+    background-color: black;
+    z-index: 99;
+}
+.navbar-toggler-icon{
+    background-color: rgb(40, 39, 39);
+}
+
+/* .img{
+    width: 100%;
+    height: 400px;
+}
+
+@media only screen and (max-width: 950px) {
+    .img{
+        width: 100%;
+        height: 200px;
+    }    
+} */
+
+.card{
+    transition: all 0.5s ease-in-out;
+    border-radius: 20px;
+}
+
+.card:hover{
+    transform: scale(0.9);
+}
+
+.content {
+    position: absolute;
+    top: 61%;
+    background: rgb(54, 35, 120); /* Fallback color */
+    background: rgba(16, 6, 104, 0.7); /* Black background with 0.5 opacity */
+    color: #f1f1f1;
+    width: 92%;
+    padding-top: 20%;
+    padding-bottom: 20%;
+}
+
+.fixed-bg {
+    background-image: url("./assets/images/imageedit_1_7501833877.jpg");
+    min-height: 400px;
+    width: 100%;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+@media only screen and (max-width: 950px) {
+    .fixed-bg {
+        background-image: url("./assets/images/Product-bg.jpeg");
+        min-height: 300px;
+        width: 100%;
+        background-attachment: fixed;
+        background-position: center;
+        background-repeat: no-repeat;
+        /* background-size: cover; */
+    }    
+}
+
+.fixed-bg-2 {
+    background-image: url("./assets/images/call-of-blue-bg.jpeg");
+    min-height: 600px;
+    width: 100%;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.fixed-bg-3 {
+    background-image: url("./assets/images/blue-streak-bg-copy.jpg");
+    min-height: 600px;
+    width: 100%;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.fixed-bg-4 {
+    background-image: url("./assets/images/blue-streak-3-copy.png");
+    min-height: 400px;
+    width: 100%;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.fixed-bg-5 {
+    background-image: url("./assets/images/track-day-3.png");
+    min-height: 400px;
+    width: 100%;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.fixed-bg-6 {
+    background-image: url("./assets/images/track-day-4.png");
+    min-height: 500px;
+    width: 100%;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.call-of-blue-1{
+    font-family: "Lucida Console", "Courier New", monospace;
+    font-size: 40px;
+    font-weight: 500;
+    line-height: 48px;
+    color: rgb(255, 255, 255);
+}
+
+.call-of-blue-2{
+    font-family: 'Brush Script MT', cursive;
+    font-size: 20px;
+    font-weight: 200;
+    line-height: 32px;
+    color: rgb(255, 255, 255);
+}
+
+.style-text-1{
+    background-color: transparent; 
+    border-radius: 10px;
+}
+
+.style-text-2{
+    font-size: 50px; 
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.style-text-3 {
+    font-family: cursive;
+    font-size: 30px;
+    font-weight: 500;
+    line-height: normal;
+    color: rgb(33, 37, 41);
+}
+
+@media only screen and (max-width: 950px) {
+    .style-text-1{
+        background-color: transparent; 
+        border-radius: 10px;
+    }
+    
+    .style-text-2{
+        font-size: 20px; 
+        font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    }
+    
+    .style-text-3 {
+        font-family: cursive;
+        font-size: 10px;
+        font-weight: 500;
+        line-height: normal;
+        color: rgb(33, 37, 41);
+    }
+     
+}
+
+.service-header{
+    font-size: 70px;
+    background-color: rgb(3,0,135);
+    padding-top: 25px;
+    padding-bottom: 25px;
+    font-weight: 700;
+}
+
+.carousel-caption {
+    margin-bottom: 100px;
+}
+
+.bikes{
+    font-size: 90px;
+    color: aliceblue;
+}
+
+.scooters{
+    font-size: 90px;
+    color: rgb(52,58,64);
+}
+
+.service-header-1{
+    font-size: 70px;
+    background-color: rgb(3,0,135);
+    padding-top: 110px;
+    padding-bottom: 40px;
+    font-weight: 500;
+    color: aliceblue;
+    font-style: italic;
+}
+
+.skill-text{
+    font-size: 25px;
+    color: rgb(5, 18, 112);
+}
+
+.skill-text-2{
+    font-size: 20px;
+    color: rgb(5, 18, 112);
+}
+
+.youtube-video{
+    aspect-ratio: 16 / 9;
+    width: 100%;
+}
+
+.seven h1 {
+    text-align: center;
+    font-size:30px; font-weight:600; color:#222; letter-spacing:1px;
+    text-transform: uppercase;
+    display: grid;
+    grid-template-columns: 1fr max-content 1fr;
+    grid-template-rows: 27px 0;
+    grid-gap: 20px;
+    align-items: center;
+}
+    
+.seven h1:after,.seven h1:before {
+    content: " ";
+    display: block;
+    border-bottom: 2px solid #28097c;
+    border-top: 2px solid #28097c;
+    height: 5px;
+    background-color:#f8f8f8;
+    margin-left: 15%;
+    margin-right: 15%;
+}
+
+
+
+
