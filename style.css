@@ -79,7 +79,7 @@
     background-image: url("./assets/images/call-of-blue-bg.jpeg");
     min-height: 600px;
     width: 100%;
-    background-attachment: fixed;
+    background-attachment: scroll;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -89,7 +89,7 @@
     background-image: url("./assets/images/blue-streak-bg-copy.jpg");
     min-height: 600px;
     width: 100%;
-    background-attachment: fixed;
+    background-attachment: scroll;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -99,7 +99,7 @@
     background-image: url("./assets/images/blue-streak-3-copy.png");
     min-height: 400px;
     width: 100%;
-    background-attachment: fixed;
+    background-attachment: scroll;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
