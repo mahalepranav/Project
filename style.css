@@ -119,7 +119,7 @@
     background-image: url("./assets/images/track-day-4.png");
     min-height: 500px;
     width: 100%;
-    background-attachment: fixed;
+    background-attachment: scroll;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
